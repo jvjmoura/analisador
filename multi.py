@@ -22,12 +22,13 @@ from pdf2image import convert_from_bytes
 import pytesseract
 from PIL import Image
 
-# Configurar a chave da API do OpenAI
-os.environ["OPENAI_API_KEY"] = ""
+# Configurar a chave da API do OpenAI usando st.secrets
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # Inicializar o modelo GPT-4
-gpt4 = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
+gpt4 = ChatOpenAI(model_name="gpt-4o-mini", temperature=0, openai_api_key=openai_api_key)
 
+# O resto do código permanece o mesmo
 def get_file_hash(file):
     file.seek(0)
     return hashlib.md5(file.read()).hexdigest()
