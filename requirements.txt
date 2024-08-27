@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+langchain
+pandas
+reportlab
+pdfplumber
+pdf2image
+pytesseract
+Pillow
+openai
