@@ -296,6 +296,5 @@ st.sidebar.warning(
 st.sidebar.title("Suporte")
 st.sidebar.info(
     "Para dúvidas ou suporte, entre em contato:\n"
-    "Email: suporte@analisadorjuridico.com\n"
-    "Telefone: (XX) XXXX-XXXX"
+    "Email: joao.moura@tjpa.jus.br"
 )
