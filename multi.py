@@ -22,11 +22,6 @@ from pdf2image import convert_from_bytes
 import pytesseract
 from PIL import Image
 
-senha_do_dia = st.secrets["SENHA_DO_DIA"]
-senha_digitada = input("Qual a senha?")
-if senha_digitada != senha_do_dia:
-    raise Exception("Senha errada!")
-
 # Configurar a chave da API do OpenAI usando st.secrets
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 
