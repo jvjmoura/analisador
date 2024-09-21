@@ -70,24 +70,6 @@ Analise o seguinte texto de um documento jurídico e forneça um resumo conciso,
 
 {text}
 
-Instruções específicas:
-1. Concentre-se no teor principal do documento, extraindo as informações mais relevantes.
-2. Descarte dados de assinatura eletrônica.
-3. Foque especialmente em manifestações de advogados(as), promotores(as), juízes(as) e outras autoridades.
-4. Preste atenção especial aos seguintes elementos, se presentes:
-   - Resposta à acusação
-   - Alegações finais
-   - Manifestações da defesa
-   - Transcrição de audiência (se contida nas alegações finais)
-5. Identifique e resuma os argumentos principais apresentados no texto.
-6. Extraia citações relevantes que apoiem os pontos principais.
-7. Se houver decisões ou conclusões, destaque-as.
-
-Resumo:
-"""
-
-{text}
-
 Resumo conciso (máximo de 3 frases):
 """
 
